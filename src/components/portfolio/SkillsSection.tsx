@@ -12,24 +12,29 @@ interface SkillCategory {
 
 const skillCategories: SkillCategory[] = [
   {
-    category: "AI & Machine Learning",
-    skills: ["Python", "TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face", "LangChain", "LangGraph"],
+    category: "Programming Languages",
+    skills: ["Python", "PHP", "C++", "JavaScript"],
     color: "from-primary to-primary-glow"
   },
   {
-    category: "NLP & LLMs",
-    skills: ["Natural Language Processing", "RAG", "Transformers", "Ollama", "Llama 3", "OpenAI API"],
+    category: "Web Development",
+    skills: ["HTML5", "CSS3", "Responsive Design", "ReactJS", "React Native", "WordPress (theme & plugin dev)", "Page Builder / Custom WP Development"],
     color: "from-secondary to-secondary-dark"
   },
   {
-    category: "Backend & APIs",
-    skills: ["FastAPI", "REST APIs", "PostgreSQL", "SQL", "MLOps", "Streamlit"],
+    category: "Backend & Databases",
+    skills: ["FastAPI", "REST APIs", "Laravel", "MySQL", "PostgreSQL", "SQL", "Vector DBs"],
     color: "from-primary-glow to-secondary"
   },
   {
-    category: "Tools & Technologies",
-    skills: ["Git", "FAISS", "Chroma", "Pandas", "NumPy", "Matplotlib", "Data Analysis"],
+    category: "AI & Machine Learning",
+    skills: ["Machine Learning", "Chatbot Development", "LangChain", "RAG", "Hugging Face", "PyTorch", "Streamlit"],
     color: "from-secondary-dark to-primary"
+  },
+  {
+    category: "Tools & Practices",
+    skills: ["Git", "FAISS", "Chroma", "Pandas", "NumPy", "Data Analysis", "ML Ops", "Model Deployment"],
+    color: "from-primary to-secondary-dark"
   }
 ];
 

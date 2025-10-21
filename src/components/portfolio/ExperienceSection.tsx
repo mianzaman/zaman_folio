@@ -17,10 +17,37 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "AI Engineer",
+    company: "Zayzom",
+    location: "Saudi Arabia (Remote)",
+    duration: "Jun 2025 - Present",
+    isLatest: true,
+    description: [
+      "Building and maintaining AI-driven backend systems powering Zayzom’s analytics platform.",
+      "Designed and implemented data pipelines to process market data for AI-driven insights.",
+      "Integrated LLMs into the backend to support intelligent news summarization, question answering, and trend analysis.",
+      "Developed and deployed FastAPI microservices enabling real-time interaction between platform and AI models.",
+      "Collaborating with data engineers and product teams to ensure smooth integration and model reliability.",
+      "Working on optimizing inference latency and scalability of AI services for production deployment."
+    ]
+  },
+  {
+    title: "Web Developer (Part-time)",
+    company: "DevTech",
+    location: "Pakistan",
+    duration: "Apr 2025 - Present (Part-time)",
+    isLatest: true,
+    description: [
+      "Working part-time on web projects including custom WordPress development and integrations.",
+      "Custom theme/plugin development, page builder workflows, and site performance optimization.",
+      "Implemented responsive front-ends using HTML5, CSS3, JavaScript/jQuery and modern frameworks as needed.",
+      "Collaborating with designers, project managers, and clients to deliver user-centered websites."
+    ]
+  },
+  {
+    title: "AI Engineer",
     company: "Cloud Neurix",
     location: "Pakistan",
     duration: "May 2024 – May 2025",
-    isLatest: true,
     description: [
       "Developed and optimized AI-powered solutions for web applications using Python and LangChain",
       "Built and integrated LLM-based chatbots using RAG architecture and vector search technologies (LangChain, FAISS, Chroma)",
@@ -29,8 +56,9 @@ const experiences: Experience[] = [
       "Developed custom APIs with FastAPI for model deployment, ensuring low-latency inference and scalable architecture"
     ]
   },
-  {
-    title: "AI Engineer",
+
+    {
+    title: "AI Engineer (Part-time)",
     company: "Futuristic Lab",
     location: "Pakistan", 
     duration: "Sep 2023 – May 2024",
@@ -40,7 +68,32 @@ const experiences: Experience[] = [
       "Integrated OpenAI APIs into internal projects to test various LLM strategies and optimize retrieval pipelines",
       "Implemented custom vector search systems using FAISS and experimented with dense and sparse retrieval techniques"
     ]
-  }
+  },
+  {
+    title: "Web Developer",
+    company: "Lahore Graphic Design",
+    location: "Lahore, Pakistan",
+    duration: "Jun 2023 - May 2024",
+    description: [
+      "Proficient in WordPress development, including theme customization and plugin integration.",
+      "Strong command of front-end technologies: HTML5, CSS3, JavaScript/jQuery.",
+      "Experience with PHP programming and MySQL database management.",
+      "Skilled in responsive design principles for optimal viewing across various devices.",
+      "Collaborated with designers, project managers, and clients to deliver projects on time.",
+      "Experienced with custom WordPress development and page builder workflows."
+    ]
+  },
+  {
+    title: "Web Developer (Intern)",
+    company: "Productive Squad",
+    location: "Lahore, Pakistan",
+    duration: "Jan 2023 –  Jun 2023",
+    description: [
+      "Engaged in immersive web development during an internship, building dynamic user-centered websites.",
+      "Contributed to collaborative projects and refined technical abilities within a skilled team."
+    ]
+  },
+  
 ];
 
 export default function ExperienceSection() {
