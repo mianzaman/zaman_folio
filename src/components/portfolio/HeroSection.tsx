@@ -68,7 +68,7 @@ export default function HeroSection() {
 
           <div ref={subtitleRef} className="space-y-4">
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-foreground-secondary">
-              AI Engineer & Software Developer
+              AI Engineer & Web Developer
             </h2>
             <p className="text-lg md:text-xl text-foreground-muted max-w-2xl mx-auto leading-relaxed">
               Specializing in Machine Learning, NLP, and AI-powered solutions. 

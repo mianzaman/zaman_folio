@@ -56,19 +56,6 @@ const experiences: Experience[] = [
       "Developed custom APIs with FastAPI for model deployment, ensuring low-latency inference and scalable architecture"
     ]
   },
-
-    {
-    title: "AI Engineer (Part-time)",
-    company: "Futuristic Lab",
-    location: "Pakistan", 
-    duration: "Sep 2023 – May 2024",
-    description: [
-      "Assisted in developing AI-powered solutions for information retrieval using Retrieval-Augmented Generation (RAG) architectures",
-      "Built and deployed NLP models using Hugging Face Transformers for document summarization and Q&A applications",
-      "Integrated OpenAI APIs into internal projects to test various LLM strategies and optimize retrieval pipelines",
-      "Implemented custom vector search systems using FAISS and experimented with dense and sparse retrieval techniques"
-    ]
-  },
   {
     title: "Web Developer",
     company: "Lahore Graphic Design",

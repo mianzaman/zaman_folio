@@ -16,6 +16,7 @@ interface Project {
 }
 
 const projects: Project[] = [
+  
   {
     title: "RAG-based PDF Chatbot",
     description: "Built a PDF-powered chatbot using LangChain and FAISS for efficient document retrieval and question answering.",
@@ -52,7 +53,34 @@ const projects: Project[] = [
     ],
     technologies: ["Streamlit", "Hugging Face", "Transformers", "PyTorch"],
     icon: FileText
-  }
+  },
+  {
+    title: "Custom WordPress Development ",
+    description: "Custom WordPress themes, LMS and plugin integrations — code and demos available on request.",
+    longDescription: [
+      "Built custom LMS sites using LearnDash and ACF-driven course content blocks.",
+      "Combined custom theme development with page-builder templates (Elementor) for fast client edits.",
+      "Implemented ACF-powered admin interfaces and custom post types for courses and lessons.",
+      "Delivered client-friendly page-builder widgets and small custom plugins for unique site features."
+    ],
+    technologies: ["WordPress", "PHP", "LearnDash", "ACF", "Elementor", "Custom Themes"],
+    icon: ExternalLink,
+    featured: false
+  },
+  {
+    title: "React E-Commerce Frontend ",
+    description: "A modern, responsive React frontend for an e-commerce application (UI layer: listings, cart, checkout, auth hooks).",
+    longDescription: [
+      "Componentized product listing, search and filtering UI",
+      "Product detail pages with image galleries and rich descriptions",
+      "Shopping cart with add/update/remove and client-side checkout flow",
+      "Authentication scaffolding (login / register) and API integration hooks",
+      "Integration points for payment providers (Stripe-ready placeholders) and API clients (Axios)"
+    ],
+    technologies: ["React", "React Router", "Tailwind CSS", "Axios", "Stripe (placeholder)", "Vite / CRA"],
+    icon: ExternalLink,
+    featured: true
+  },
 ];
 
 export default function ProjectsSection() {
@@ -185,7 +213,7 @@ export default function ProjectsSection() {
                   </div>
 
                   {/* Action buttons */}
-                  <div className="flex gap-3">
+                  {/* <div className="flex gap-3">
                     <Button variant="outline" size="sm" className="group/btn">
                       <Github className="w-4 h-4 group-hover/btn:rotate-12 transition-transform duration-300" />
                       Code
@@ -194,7 +222,7 @@ export default function ProjectsSection() {
                       <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 group-hover/btn:-translate-y-1 transition-transform duration-300" />
                       Live Demo
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Floating decoration */}
