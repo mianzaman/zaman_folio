@@ -36,7 +36,6 @@ const experiences: Experience[] = [
     company: "Zayzom",
     location: "Saudi Arabia (Remote)",
     duration: "Jun 2025 - Nov2025|",
-    isLatest: true,
     description: [
       "Building and maintaining AI-driven backend systems powering Zayzom’s analytics platform.",
       "Designed and implemented data pipelines to process market data for AI-driven insights.",
