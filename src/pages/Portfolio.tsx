@@ -27,7 +27,7 @@ export default function Portfolio() {
       <footer className="relative z-10 py-8 px-4 border-t border-card-border">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-foreground-muted text-sm">
-            © 2024 Zaman Ali. Built with React, Three.js, and lots of ☕
+            © 2024 Zaman Ali. AI Engineer & Web Developer
           </p>
         </div>
       </footer>
