@@ -83,7 +83,7 @@ export default function HeroSection() {
               asChild
               className="group"
             >
-              <a href="https://drive.google.com/file/d/1hW1p7Ci4dJhoBYrlN7NbOypDcRbCzgEv/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+              <a href="https://drive.google.com/file/d/1v9IgBXRtuaDqgkk_hstJc9wX_wq2ur9a/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                 <Download className="w-5 h-5 group-hover:animate-bounce" />
                 Download CV
               </a>
