@@ -18,7 +18,7 @@ const skillCategories: SkillCategory[] = [
   },
   {
     category: "Web Development",
-    skills: ["HTML5", "CSS3", "Responsive Design", "ReactJS", "React Native", "WordPress (theme & plugin dev)", "Page Builder / Custom WP Development"],
+    skills: ["HTML5", "CSS3", "Responsive Design", "ReactJS", "WordPress (theme & plugin dev)", "Page Builder / Custom WP Development"],
     color: "from-secondary to-secondary-dark"
   },
   {
@@ -28,7 +28,7 @@ const skillCategories: SkillCategory[] = [
   },
   {
     category: "AI & Machine Learning",
-    skills: ["Machine Learning", "Chatbot Development", "LangChain", "RAG", "Hugging Face", "PyTorch", "Streamlit"],
+    skills: ["Machine Learning", "Chatbot Development", "LangChain", "Agnetic Framework" , "RAG", "Hugging Face", "PyTorch", "Streamlit"],
     color: "from-secondary-dark to-primary"
   },
   {
