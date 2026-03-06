@@ -15,11 +15,27 @@ interface Experience {
 }
 
 const experiences: Experience[] = [
+ 
   {
+    title: "Full-Stack Developer (Web & AI )",
+    company: "DevTech",
+    location: "Pakistan",
+    duration: "Apr 2025 - Present",
+    isLatest: true,
+    description: [
+     "Led WordPress development, including custom themes, plugin integration, and performance optimization for client-facing platforms.",
+     "Developed backend services to integrate AI-powered features into web applications using Python and REST APIs.",
+    "Designed and implemented AI-driven workflows connecting LLM APIs, external data sources, and business automation pipelines.",
+    "Built scalable backend components to support AI feature deployment and secure API orchestration.",
+    "Collaborated with cross-functional teams to translate business requirements into intelligent automation solutions.",
+     "Mentored junior developers in implementing AI integrations and backend best practices",
+    ]
+  },
+   {
     title: "AI Engineer",
     company: "Zayzom",
     location: "Saudi Arabia (Remote)",
-    duration: "Jun 2025 - Present",
+    duration: "Jun 2025 - Nov2025|",
     isLatest: true,
     description: [
       "Building and maintaining AI-driven backend systems powering Zayzom’s analytics platform.",
@@ -28,19 +44,6 @@ const experiences: Experience[] = [
       "Developed and deployed FastAPI microservices enabling real-time interaction between platform and AI models.",
       "Collaborating with data engineers and product teams to ensure smooth integration and model reliability.",
       "Working on optimizing inference latency and scalability of AI services for production deployment."
-    ]
-  },
-  {
-    title: "Web Developer (Part-time)",
-    company: "DevTech",
-    location: "Pakistan",
-    duration: "Apr 2025 - Present (Part-time)",
-    isLatest: true,
-    description: [
-      "Working part-time on web projects including custom WordPress development and integrations.",
-      "Custom theme/plugin development, page builder workflows, and site performance optimization.",
-      "Implemented responsive front-ends using HTML5, CSS3, JavaScript/jQuery and modern frameworks as needed.",
-      "Collaborating with designers, project managers, and clients to deliver user-centered websites."
     ]
   },
   {
